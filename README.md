@@ -7,6 +7,7 @@ A central home for my engineering projects, source files, designs, build notes, 
 | Project | Build status | Documentation |
 | --- | --- | --- |
 | [01 — 3D Printer](projects/01-3d-printer/README.md) | Built, as reported by owner | Build notes, CAD, 8 photos, PLA samples, and Marlin configuration collected |
+| [Autonomous Mobile Robot (ROS 2)](https://github.com/vivek5391/Autonomous-mobile-robot) | In development; local simulation validation pending | ROS 2 Jazzy, Gazebo Sim, URDF/Xacro, simulated LiDAR, SLAM Toolbox and Nav2 preparation |
 
 ## Organization
 
