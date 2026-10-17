@@ -36,4 +36,4 @@ To download a working copy with Git installed:
 git clone https://github.com/vivek5391/project-portfolio.git
 ```
 
-The previous ESP32 and relay projects are preserved in a ZIP in the parent folder's `_local-backups/` directory, outside this repository.
+Older ESP32 and relay project backups, if needed, are maintained separately and are not included in this repository.
