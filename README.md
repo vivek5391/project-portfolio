@@ -6,8 +6,10 @@ A central home for my engineering projects, source files, designs, build notes, 
 
 | Project | Build status | Documentation |
 | --- | --- | --- |
-| [01 — 3D Printer](projects/01-3d-printer/README.md) | Built, as reported by owner | Build notes, CAD, 8 photos, PLA samples, and Marlin configuration collected |
-| [Autonomous Mobile Robot (ROS 2)](https://github.com/vivek5391/Autonomous-mobile-robot) | In development; local simulation validation pending | ROS 2 Jazzy, Gazebo Sim, URDF/Xacro, simulated LiDAR, SLAM Toolbox and Nav2 preparation |
+| [01 — 3D Printer](projects/01-3d-printer/README.md) | Built, as reported by owner; performance validation pending | Custom Cartesian FDM, Marlin, Arduino Mega + RAMPS 1.4, CAD and build photos |
+| [5-DOF Robotic Arm Digital Twin](https://github.com/vivek5391/6dof-robotic-arm-ros2) | Software/hardware validation should be confirmed on target setup | ROS 2 Humble, URDF/Xacro, Fusion 360 CAD, browser twin and servo bridge code |
+| [Industrial IoT Smart Relay & Energy Monitor](https://github.com/vivek5391/esp32-industrial-iot-controller) | Prototype; measurement and safety validation required | ESP32, PlatformIO, Blynk, NVS persistence and relay-control firmware |
+| [Autonomous Mobile Robot (ROS 2)](https://github.com/vivek5391/Autonomous-mobile-robot) | In development; CI passing, local simulation validation pending | ROS 2 Jazzy, Gazebo Sim, URDF/Xacro, simulated LiDAR, SLAM Toolbox and Nav2 preparation |
 
 ## Organization
 
