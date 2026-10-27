@@ -33,10 +33,8 @@
  * - LCD controller
  * - Extra features
  *
-#if 1
  * Advanced settings can be found in Configuration_adv.h
-#endif
-/* CONFIGURATION_H_VERSION is defined below */
+ */
 #define CONFIGURATION_H_VERSION 02010206
 
 //===========================================================================
@@ -1198,7 +1196,7 @@
  * Override with M92
  *                                      X, Y, Z [, I [, J [, K...]]], E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 40, 80, 200, 90.91 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 40, 80, 200, 94.70 }
 
 /**
  * Default Max Feed Rate (linear=mm/s, rotational=°/s)
@@ -1437,7 +1435,6 @@
  * Use StallGuard2 to probe the bed with the nozzle.
  * Requires stallGuard-capable Trinamic stepper drivers.
  * CAUTION: This can damage machines with Z lead screws.
-
  *          Take extreme care when setting up this feature.
  */
 //#define SENSORLESS_PROBING
@@ -2354,7 +2351,7 @@
   //#define NOZZLE_CLEAN_NO_Y
 
   // Require a minimum hotend temperature for cleaning
-  #define NOZZLE_CLEAN_MIN_TEMP 180
+  #define NOZZLE_CLEAN_MIN_TEMP 170
   //#define NOZZLE_CLEAN_HEATUP       // Heat up the nozzle instead of skipping wipe
 
   // Explicit wipe G-code script applies to a G12 with no arguments.
